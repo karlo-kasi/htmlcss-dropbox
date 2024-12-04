@@ -85,21 +85,23 @@ header{
 
 
 /* Inizio seconda section */
+.section-with50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .flex-column {
     flex-direction: column;
     padding: 10px;
-    gap: 10px;
 }
 
 .flex-basis {
     flex-direction: calc((100%) / 3 - 10px);
-    
-    
 }
 
 .justify-content {
@@ -107,10 +109,12 @@ header{
     align-items: center;
 }
 
-.section-with50 {
-    width: 50%;
-    margin: 0 auto;
+.plan {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+
 
 .border-color {
     border: 1px solid var(--border);
@@ -127,7 +131,7 @@ hr {
 span i {
     margin-right: 5px;
     /* color: blue; */
-  }
+}
 
 
 
