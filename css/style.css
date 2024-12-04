@@ -3,6 +3,7 @@
     --header: white;
     --button: #1E61FE;
     --aside-1: #B4D0E7;
+    --border: #E7E7E9;
 }
 /* end root site-palette */
 
@@ -81,24 +82,54 @@ header{
 }
 /* Fine prima aside */
 
-/* Inizio seconda section */
 
+
+/* Inizio seconda section */
 .flex {
     display: flex;
+    gap: 10px;
 }
 
 .flex-column {
     flex-direction: column;
+    padding: 10px;
+    gap: 10px;
 }
 
 .flex-basis {
-    flex-direction: calc((100%)/3);
+    flex-direction: calc((100%) / 3 - 10px);
+    
+    
+}
+
+.justify-content {
+    justify-content: center;
+    align-items: center;
 }
 
 .section-with50 {
     width: 50%;
     margin: 0 auto;
 }
+
+.border-color {
+    border: 1px solid var(--border);
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--border);
+}
+
+hr {
+    width: 30%;
+}
+
+span i {
+    margin-right: 5px;
+    /* color: blue; */
+  }
+
+
 
 
 
