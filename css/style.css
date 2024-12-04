@@ -74,16 +74,31 @@ header{
 
 .conntainer-flex-40 {
     flex-basis: 40%;
-    
-    
-    
 }
 
 .conntainer-flex-60 {
     flex-basis: 60%;
-    
 }
 /* Fine prima aside */
+
+/* Inizio seconda section */
+
+.section-with50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.first-column-flex {
+    display: flex;
+    flex-direction: column;
+    border: 15px solid black;
+    flex-basis: calc((100) / 3);
+    
+}
+
+.first-column {
+    border: 20px solid aqua;
+}
 
 
 
