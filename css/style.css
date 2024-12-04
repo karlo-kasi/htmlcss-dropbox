@@ -1,16 +1,19 @@
+/* Start root site-palette */
 :root{
     --button: #1E61FE;
     --aside-1: #B4D0E7;
 }
+/* end root site-palette */
 
-* {
-    font-family: sans-serif;
-}
 
 
 main {
     
     
+}
+
+img {
+    width: 100%;
 }
 
 .container {
