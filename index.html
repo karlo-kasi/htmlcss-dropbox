@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-dropbox</title>
 
-    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
+    <link rel="stylesheet" href="./css/debug.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -61,43 +61,53 @@
 
 
        <section>
-          <div class="section-with50">
-            <div>
+            <div class="section-with50">
+              <div>
                 <h2>Trova il piano business che fa per te</h2>
-            </div>
-            <div>
+              </div>
+              <div>
                 <input type="radio" checked>Fatturazione mensile
                 <input type="radio">Fatturazione annuale
-            </div>
+              </div>
+            </div>  
+        </section>   
 
-            <!-- Piani di abbonamento -->
-            <div>
-                <div class="first-column-flex">
 
+        
+        <!-- Piani di abbonamento -->
+        <section class="flex section-with50">
+                
+                    
                     <!-- Primo Piano -->
-                    <div>
-                        <div>
+                    <div class="flex-basis">
+                        <div class="flex">
                             <span>
                                 <i class="fa-solid fa-user"></i>Singolo
                             </span>
                         </div>
-                        <div>
+                        <div class="flex flex-column">
                             <span>Professional</span>
                             <span>€ 12.00</span>
                             <span>/mese</span>
                         </div>
-                        <div>
+                        <div class="flex flex-column">
                             <span>1 utente</span>
                             <span>5 TB di spazio di archiviazione sicuro</span>
                             <span>Funzioni di proddutività premium e condivisione file semplice e sicura</span>
+                        </div>    
                             <button>Prova gratis per 30 giorni</button>
+                        <div>
                             <span>oppure <a href="">acquista ora</a></span>
                             <hr>
                         </div>
-                        <div>
+                        <div class="flex flex-column">
                             <span>Punti salienti del piano</span>
-                            <span>Invia file fino a 100 GB con Dropbox Trasfert</span>
-                            <span>Cartelle offline su dispositivi mobili</span>
+                            <span>
+                                <i class="fas fa-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
+                            </span>
+                            <span>
+                                <i class="fas fa-check"></i>Cartelle offline su dispositivi mobili
+                            </span>
                         </div>
                     </div>
                     
@@ -157,11 +167,12 @@
                             <span>Cartelle offline su dispositivi mobili</span>
                         </div>
                     </div> 
-                    
-                </div>
-            </div>
-          </div> 
-       </section>
+                    <!-- terzo piano -->
+
+                
+            </section>
+          
+       
 
 
        

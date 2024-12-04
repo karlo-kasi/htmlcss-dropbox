@@ -83,22 +83,27 @@ header{
 
 /* Inizio seconda section */
 
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-basis {
+    flex-direction: calc((100%)/3);
+}
+
 .section-with50 {
     width: 50%;
     margin: 0 auto;
 }
 
-.first-column-flex {
-    display: flex;
-    flex-direction: column;
-    border: 15px solid black;
-    flex-basis: calc((100) / 3);
-    
-}
 
-.first-column {
-    border: 20px solid aqua;
-}
+
+
+
 
 
 
