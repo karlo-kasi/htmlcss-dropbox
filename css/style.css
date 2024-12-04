@@ -1,0 +1,114 @@
+:root{
+    --price: red;
+    --discount: red;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+
+main {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.price{
+    color: var(--price);
+}
+
+.flex {
+
+    display: flex;
+    
+    
+}
+
+.card {
+    position: relative;
+    flex-basis: calc((100%)/3);
+    padding: 15px;
+    
+    
+}
+
+.card__icon {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.card__icon2 {
+    position: absolute;
+    left: 15px;
+    bottom: 150px;
+    background-color: var(--discount);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.card__icon3 {
+    position: absolute;
+    left: 80px;
+    bottom: 150px;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.card__icon4 {
+    position: absolute;
+    left: 15px;
+    bottom: 150px;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.card__icon svg {
+    width: 24px;
+}
+
+
+
+.product {
+    display: block;
+    position: relative; 
+    height: 550px;
+}  
+
+
+.product img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-second {
+    display: none;
+    
+}
+
+
+.product:hover .img-second {
+    display: inline-block;
+}
+
+.product:hover .img-first {
+    display: none;
+}
+

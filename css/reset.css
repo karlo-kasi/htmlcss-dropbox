@@ -1,0 +1,29 @@
+/* reset impistazioni ccs */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul {
+
+   list-style-type: none;  
+}
+
+img{
+   display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   text-transform: capitalize;
+}
