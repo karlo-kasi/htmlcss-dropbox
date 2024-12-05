@@ -192,9 +192,23 @@ span i {
     border: 1px solid var(--border);
 
 }
+/* Fine terza sezione */
 
+/* Inzio quarta sezione */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
-
+.card {
+    flex-basis: calc((100%) / 3 - 20px);
+    flex-grow: 1;
+    gap: 10px;
+    
+}
 
 
 
