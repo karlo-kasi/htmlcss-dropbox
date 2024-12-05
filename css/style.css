@@ -24,6 +24,8 @@ h1 {
 header{
     background-color: var(--header);
     padding: 20px 10px;
+    /* position: sticky;
+    z-index: 1; */
 }
 
 .header__menu,
@@ -110,11 +112,17 @@ header{
 }
 
 .plan {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
 }
 
+.buttom-80 {
+    width: 80%;
+    background-color: var(--button);
+    padding: 10px 15px;
+    color: white;
+    border: none;
 
+}
 
 .border-color {
     border: 1px solid var(--border);
@@ -126,11 +134,16 @@ header{
 
 hr {
     width: 30%;
+    border: 1px solid lightgray;
 }
 
 span i {
     margin-right: 5px;
-    /* color: blue; */
+    
+}
+
+.color-check {
+   color: var(--button);
 }
 
 

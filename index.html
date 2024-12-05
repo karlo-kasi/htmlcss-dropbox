@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-dropbox</title>
 
-    <!-- <link rel="stylesheet" href="./css/debug.css"> -->
+    <link rel="stylesheet" href="./css/debug.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -62,12 +62,14 @@
 
        <section>
             <div class="section-with50">
-              <div>
-                <h2>Trova il piano business che fa per te</h2>
-              </div>
-              <div>
-                <input type="radio" checked>Fatturazione mensile
-                <input type="radio">Fatturazione annuale
+              <div class="flex flex-column ">
+                  <div>
+                    <h2>Trova il piano business che fa per te</h2>
+                  </div>
+                  <div>
+                    <input type="radio" checked>Fatturazione mensile
+                    <input type="radio">Fatturazione annuale
+                  </div>
               </div>
             </div>  
         </section>   
@@ -87,8 +89,12 @@
                         </div>
                         <div class="flex flex-column">
                             <h3>Professional</h3>
-                            <span>€ 12.00</span>
-                            <span>/mese</span>
+                            <span>
+                                <strong>€ 12.00</strong>
+                                <br> 
+                                /mese
+                            </span>
+                            
                         </div>
                         <div class="flex flex-column">
                             <span>
@@ -100,17 +106,19 @@
                             <span>
                                 <i class="fa-solid fa-share-nodes"></i>Funzioni di proddutività premium e condivisione file semplice e sicura
                             </span>
-                            <button class="header__button2">Prova gratis per 30 giorni</button>
+                            <div class="flex justify-content">
+                                <button class="buttom-80">Prova gratis per 30 giorni</button>
+                            </div>
                             <span>oppure <a href="">acquista ora</a></span>
                             <hr>
                         </div>    
                         <div class="flex flex-column">
-                            <span>Punti salienti del piano</span>
+                            <span><strong>Punti salienti del piano</strong></span>
                             <span>
-                                <i class="fas fa-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
+                                <i class="fas fa-check color-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
                             </span>
                             <span>
-                                <i class="fas fa-check"></i>Cartelle offline su dispositivi mobili
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
                             </span>
                         </div>
                     </div>
@@ -126,8 +134,11 @@
                         </div>
                         <div class="flex flex-column">
                             <h3>Professional</h3>
-                            <span>€ 12.00</span>
-                            <span>/mese</span>
+                            <span>
+                                <strong>€ 12.00</strong>
+                                <br> 
+                                /mese
+                            </span>
                         </div>
                         <div class="flex flex-column">
                             <span>
@@ -139,17 +150,25 @@
                             <span>
                                 <i class="fa-solid fa-share-nodes"></i>Funzioni di proddutività premium e condivisione file semplice e sicura
                             </span>
-                            <button class="header__button2">Prova gratis per 30 giorni</button>
+                            <div class="flex justify-content">
+                                <button class="buttom-80">Prova gratis per 30 giorni</button>
+                            </div>
                             <span>oppure <a href="">acquista ora</a></span>
                             <hr>
                         </div>
                         <div class="flex flex-column">
-                            <span>Punti salienti del piano</span>
+                            <span><strong>Punti salienti del piano</strong></span>
                             <span>
-                                <i class="fas fa-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
+                                <i class="fas fa-check color-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
                             </span>
                             <span>
-                                <i class="fas fa-check"></i>Cartelle offline su dispositivi mobili
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
+                            </span>
+                            <span>
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
+                            </span>
+                            <span>
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
                             </span>
                         </div>
                     </div> 
@@ -164,8 +183,11 @@
                         </div>
                         <div class="flex flex-column">
                             <h3>Professional</h3>
-                            <span>€ 12.00</span>
-                            <span>/mese</span>
+                            <span>
+                                <strong>€ 12.00</strong>
+                                <br> 
+                                /mese
+                            </span>
                         </div>
                         <div class="flex flex-column">
                             <span>
@@ -177,20 +199,49 @@
                             <span>
                                 <i class="fa-solid fa-share-nodes"></i>Funzioni di proddutività premium e condivisione file semplice e sicura
                             </span>
-                            <button class="header__button2">Prova gratis per 30 giorni</button>
+                            <div class="flex justify-content">
+                                <button class="buttom-80">Prova gratis per 30 giorni</button>
+                            </div>
                             <span>oppure <a href="">acquista ora</a></span>
                             <hr>
                         </div>
                         <div class="flex flex-column">
-                            <span>Punti salienti del piano</span>
-                            <span>Invia file fino a 100 GB con Dropbox Trasfert</span>
-                            <span>Cartelle offline su dispositivi mobili</span>
+                            <span><strong>Punti salienti del piano</strong></span>
+                            <span>
+                                <i class="fas fa-check color-check"></i>Invia file fino a 100 GB con Dropbox Trasfert
+                            </span>
+                            <span>
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
+                            </span>
+                            <span>
+                                <i class="fas fa-check color-check"></i>Cartelle offline su dispositivi mobili
+                            </span>
                         </div>
                     </div> 
                     <!-- terzo piano -->
-
                 
-            </section>
+        </section>
+            
+             
+        <section class="section-with50">
+            <div class="border-color">
+                <div class="border-bottom">
+                    <span>
+                        <i class="fa-solid fa-building"></i>Team
+                    </span>
+                 </div>
+                 <div>
+                    <div>
+                        <h3></h3>
+                        <span></span>
+                        <p></p>
+                    </div>
+                 </div>
+                 <div>
+    
+                 </div>
+            </div>
+        </section>
           
        
 
