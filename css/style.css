@@ -167,15 +167,22 @@ span i {
 
 .container-3 {
     display: flex;
+    gap: 10px;
 }
 
-
-.container-3-flexbasis-60 {
-    /* flex-basis: 60%; */
+.container-3-flex-column {
+    flex-direction: column;
+    margin-top: 30px;
+    
 }
 
-.container-flex-basis-40 {
-    /* flex-basis: 40%; */
+.container3-flexbasis-60 {
+    flex-basis: 60%;
+}
+
+.container3-flex-basis-40 {
+    flex-basis: 40%;
+    gap: 10px;
     
 }
 
