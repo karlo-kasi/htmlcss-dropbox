@@ -124,6 +124,19 @@ header{
 
 }
 
+.margin-top {
+    margin-top: 20px;
+}
+
+.flex-basis-60 {
+    flex-basis: 60%;
+    
+}
+
+.flex-basis-40 {
+    flex-basis: 40%;
+}
+
 .border-color {
     border: 1px solid var(--border);
 }
