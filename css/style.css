@@ -135,6 +135,7 @@ header{
 
 .flex-basis-40 {
     flex-basis: 40%;
+    margin-top: 10px;
 }
 
 .border-color {
@@ -159,13 +160,31 @@ span i {
    color: var(--button);
 }
 
+/* Fine seconda section */
 
 
+/* Inizio terza sezione */
+
+.container-3 {
+    display: flex;
+}
 
 
+.container-3-flexbasis-60 {
+    /* flex-basis: 60%; */
+}
 
+.container-flex-basis-40 {
+    /* flex-basis: 40%; */
+    
+}
 
+.button-whithe {
+    background-color: white;
+    padding: 5px 15px;
+    border: 1px solid var(--border);
 
+}
 
 
 
